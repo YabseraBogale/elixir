@@ -8,7 +8,7 @@ defmodule LanguageList do
     # Please implement the add/2 function
     [language|list]
   end
-  def remove([_|list]) do
+  def remove([list|_]) do
     # Please implement the remove/1 function
     list
   end
