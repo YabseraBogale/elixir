@@ -14,12 +14,3 @@ defmodule WhyIs do
 
 end
 b=WhyIs.new()
-b=WhyIs.add(b,"c++")
-IO.puts(b)
-b=WhyIs.add(b,"elixir")
-IO.puts(b)
-b=WhyIs.add(b,"F#")
-IO.puts(b)
-
-b=WhyIS.remove(b)
-IO.puts(b)
