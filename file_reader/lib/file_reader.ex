@@ -1,6 +1,6 @@
-defmodule GuessGame do
+defmodule FileReader do
   @moduledoc """
-  Documentation for `GuessGame`.
+  Documentation for `FileReader`.
   """
 
   @doc """
@@ -8,11 +8,10 @@ defmodule GuessGame do
 
   ## Examples
 
-      iex> GuessGame.hello()
+      iex> FileReader.hello()
       :world
 
   """
-  
   def hello do
     :world
   end
